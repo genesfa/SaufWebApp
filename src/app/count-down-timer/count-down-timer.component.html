@@ -1,8 +1,12 @@
 <div *ngIf="!finish; else isFinish" class="timer">
+ <h1>Start des Oktoberfests</h1>
+  <br/>
   <span id="Tage"> {{ daysToDday }} </span>Tage
   <span id="Stunden"> {{ hoursToDday }} </span>Stunden
   <span id="minutes"> {{ minutesToDday }} </span>Minuten
   <span id="seconds"> {{ secondsToDday }} </span>
+  <br/>
+  Wir freuen uns auf dich
 </div>
 <ng-template #isFinish>
   <div class="timer">
